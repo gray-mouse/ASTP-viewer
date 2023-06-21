@@ -1,0 +1,41 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Все объекты{% endblock %}
+
+{% block content %}
+<div class="features">
+    <body>
+        <h1></h1>
+		<table width="109%" border="1">
+			<tr height="35">
+				<th width="50%"> Калуга К1, К2 </th>
+				<th width="50%"> Клиники </th>
+			</tr>
+			<tr>
+				<th height="480">
+				<iframe src="http://192.168.98.4:8080/webvisu.htm" height="100%" width="100%" name="Калуга К1, К2" ></iframe>
+				</th>
+				<th height="480">
+				<iframe src="http://192.168.92.10:8080/webvisu.htm" height="100%" width="100%" name="Калуга К3, К4" ></iframe>
+				</th>
+			</tr>
+			<tr height="35">
+				<th height="10%"> Калуга К3,К4 </th>
+				<th height="10%"> Сергиевск </th>
+			</tr>
+			<tr>
+				<th height="480">
+				<iframe src="http://192.168.98.9:8080/webvisu.htm" height="100%" width="100%" name="Калуга К1, К2" ></iframe>
+				</th>
+				<th height="480">
+				<iframe src="http://192.168.96.10:8080/webvisu.htm" height="100%" width="100%" name="Калуга К3, К4" ></iframe>
+				</th>
+			</tr>
+		</table>
+	</body>
+</div>
+
+
+
+
+{% endblock %}
